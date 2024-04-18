@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "engines": {
+    "node": "18.18.2",
+    "npm": "9.8.1"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 120,
+    "singleQuote": true,
+    "jsxSingleQuote": true
+  },
+  "dependencies": {
+    "@infisical/sdk": "^2.1.9",
+    "@johnlindquist/kit": "file:../.kit",
+    "dotenv": "^16.4.5",
+    "get-app-icon": "^1.0.1",
+    "voicemeeter-connector": "^1.4.0"
+  },
+  "scripts": {
+    "env": "infisical export"
+  }
+}
