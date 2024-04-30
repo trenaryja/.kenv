@@ -12,12 +12,14 @@
   },
   "dependencies": {
     "@infisical/sdk": "^2.1.9",
-    "@johnlindquist/kit": "file:../.kit",
     "dotenv": "^16.4.5",
     "get-app-icon": "^1.0.1",
     "voicemeeter-connector": "^1.4.0"
   },
   "scripts": {
     "env": "infisical export"
+  },
+  "devDependencies": {
+    "@johnlindquist/kit": "file:../.kit"
   }
 }
